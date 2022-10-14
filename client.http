@@ -1,0 +1,11 @@
+GET http://localhost:9000/users
+###
+
+POST  http://localhost:9000/users
+Content-Type:  application/json
+
+{
+    "id" : "99999",
+    "name" : "나무를"
+}
+###
